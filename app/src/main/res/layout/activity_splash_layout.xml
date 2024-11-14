@@ -15,6 +15,8 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="5dp"
+        app:indicatorColor="#8BC6FA"
+        app:trackColor="#75AFE2"
         android:indeterminateOnly="true" />
 
     <ImageView
@@ -31,10 +33,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imgSplash"
         android:layout_centerInParent="true"
+        android:fontFamily="@font/bebasneueregular"
         android:shadowColor="@color/black"
         android:text="Stok"
         android:textColor="#F99E4C"
-        android:textSize="50sp" />
+        android:textSize="70sp" />
 
 
 </RelativeLayout>
